@@ -13,4 +13,4 @@ VERSION="v1.7.0.${BUILD}.$(date +%y%m%d).$(date +%H%M)"
 IMAGE_NAME="ER-e200.${VERSION}"
 
 # Cross Architecture binaary
-CROSS_ARCH="/usr/bin/qemu-mipsel-static"
+CROSS_ARCH="/usr/bin/qemu-mips-static"
